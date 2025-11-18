@@ -1,0 +1,12 @@
+/* 清除瀏覽器預設的邊距和填充，讓畫布可以貼合視窗邊緣 */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%; /* 確保 html 和 body 元素能填滿整個視窗高度 */
+  overflow: hidden; /* 隱藏滾動條 */
+}
+
+/* 確保 p5.js 畫布在網頁上正確顯示 */
+canvas {
+  display: block;
+}
